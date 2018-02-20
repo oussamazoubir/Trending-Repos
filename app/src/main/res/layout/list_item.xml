@@ -19,14 +19,16 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="2dip"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorPrimaryDark"
+        />
     <TextView
         android:id="@+id/login"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:gravity="center"
-        android:textColor="@color/colorAccent" />
+        android:textColor="@color/colorPrimaryDark"
+        />
 
     <TextView
         android:id="@+id/stargazers_count"
@@ -34,6 +36,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.5"
         android:gravity="center"
-        android:textColor="#5d5d5d"
+        android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold" />
 </LinearLayout>
